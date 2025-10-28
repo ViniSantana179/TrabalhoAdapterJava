@@ -10,7 +10,7 @@ Adapter: adapta cada API de rede social para a interface comum IGerenciadorMidia
 
 Factory Method: instancia automaticamente o Adapter (estratégia) correto conforme a plataforma informada.
 
-⚙️ Estrutura do Projeto
+Estrutura do Projeto
 ├── adapter/        # Adaptadores para cada rede social (Instagram, TikTok, Twitter)
 ├── api/            # Simulações das APIs das plataformas
 ├── factory/        # Fábrica responsável por instanciar o Adapter correto
